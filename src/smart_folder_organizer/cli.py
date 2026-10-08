@@ -2,6 +2,10 @@
 Command-line interface for Smart Folder Organizer.
 """
 
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 
 from .operations import organize_folder
