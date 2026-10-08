@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/smart_folder_organizer/__init__.py
+src/smart_folder_organizer/cli.py
+src/smart_folder_organizer/operations.py
+src/smart_folder_organizer.egg-info/PKG-INFO
+src/smart_folder_organizer.egg-info/SOURCES.txt
+src/smart_folder_organizer.egg-info/dependency_links.txt
+src/smart_folder_organizer.egg-info/entry_points.txt
+src/smart_folder_organizer.egg-info/top_level.txt

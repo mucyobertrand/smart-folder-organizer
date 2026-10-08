@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-folder-organizer"
+version = "0.1.0"
+description = "A smart Python package for automatically organizing files into categorized folders"
+readme = "README.md"
+requires-python = ">=3.8"
+
+authors = [
+    { name = "Bertrand", email = "mucyobertrand07@gmail.com" }
+]
+
+license = { text = "MIT" }
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = []
+
+[project.scripts]
+smart-organize = "smart_folder_organizer.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/mucyobertrand/smart-folder-organizer"
